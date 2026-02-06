@@ -5,29 +5,27 @@
 
 Professional automated installer for building a complete web application security testing environment on Kali Linux and macOS.
 
-## 🎯 Features
+## Features
 
-✅ **300+ Security Tools** - Complete arsenal for web pentesting  
-✅ **Smart Installation** - Auto-detects OS, skips installed tools  
-✅ **Parallel Processing** - Fast multi-threaded installation  
-✅ **Organized Workspace** - Professional folder structure  
-✅ **Progress Tracking** - Visual progress bars and colored output  
-✅ **Comprehensive Logging** - Detailed installation logs  
-✅ **Interactive Menu** - Install everything or select categories  
-✅ **Python Libraries** - 30+ security automation modules  
-✅ **Premium Wordlists** - SecLists, PayloadsAllTheThings, FuzzDB  
+ **300+ Security Tools** - Complete arsenal for web pentesting  
+**Smart Installation** - Auto-detects OS, skips installed tools  
+**Parallel Processing** - Fast multi-threaded installation  
+**Organized Workspace** - Professional folder structure  
+**Progress Tracking** - Visual progress bars and colored output  
+**Comprehensive Logging** - Detailed installation logs  
+**Interactive Menu** - Install everything or select categories  
+**Python Libraries** - 30+ security automation modules  
+**Premium Wordlists** - SecLists, PayloadsAllTheThings, FuzzDB  
 
-## 📋 Requirements
+## Requirements
 
 **Linux (Kali/Ubuntu/Debian):**
 - Root/sudo access
-- Internet connection
 - 10GB+ free disk space
 
 **macOS:**
 - macOS 10.15+
 - Homebrew (auto-installed if missing)
-- Internet connection
 - 10GB+ free disk space
 
 ## 🚀 Quick Start
@@ -52,7 +50,7 @@ python3 muscat2040_web_security_kit.py        # macOS
 sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/muscat2040-security-kit/main/muscat2040_web_security_kit.py)"
 ```
 
-## 🛠️ Tools Included
+## Tools Included
 
 ### 🔍 Recon & Subdomain Discovery (16 tools)
 - **amass** - In-depth subdomain enumeration
@@ -72,7 +70,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - **theHarvester** - E-mail, subdomain, and name harvester
 - **nuclei** - Vulnerability scanner based on templates
 
-### 📂 Directory & Parameter Discovery (7 tools)
+### Directory & Parameter Discovery (7 tools)
 - **ffuf** - Fast web fuzzer
 - **gobuster** - Directory/file & DNS busting
 - **dirsearch** - Web path scanner
@@ -81,7 +79,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - **arjun** - HTTP parameter discovery
 - **paramspider** - Parameter mining
 
-### 🐛 Vulnerability Scanning (9 tools)
+### Vulnerability Scanning (9 tools)
 - **sqlmap** - Automatic SQL injection tool
 - **dalfox** - XSS scanner and parameter analyzer
 - **xsstrike** - Advanced XSS detection suite
@@ -92,23 +90,23 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - **ssrfmap** - SSRF vulnerability scanner
 - **testssl.sh** - SSL/TLS testing tool
 
-### 🔄 Proxy & Manual Testing (3 tools)
+###  Proxy & Manual Testing (3 tools)
 - **mitmproxy** - Interactive HTTPS proxy
 - **OWASP ZAP** - Web application security scanner
 - **Burp Suite Community** (manual install recommended)
 
-### 🌐 API & Modern Web Testing (4 tools)
+###  API & Modern Web Testing (4 tools)
 - **kiterunner** - API & route discovery
 - **graphqlmap** - GraphQL vulnerability scanner
 - **jwt_tool** - JWT security testing
 - **httpie** - Modern HTTP client
 
-### 🔐 Authentication & Password Testing (3 tools)
+### Authentication & Password Testing (3 tools)
 - **hydra** - Password brute-forcing
 - **patator** - Multi-purpose brute-forcer
 - **hashcat** - Advanced password recovery
 
-### 🔧 Utilities (8 tools)
+### Utilities (8 tools)
 - **whatweb** - Web technology identifier
 - **curl** - Command line HTTP client
 - **wget** - File downloader
@@ -118,7 +116,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - **python3** - Python interpreter
 - **nmap** - Network scanner
 
-## 📦 Python Libraries (30+)
+##  Python Libraries (30+)
 
 **HTTP & Web:**
 - requests, aiohttp, httpx, urllib3
@@ -140,7 +138,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - rich, colorama, tqdm
 - regex, jsbeautifier, pyyaml
 
-## 📚 Wordlists
+## Wordlists
 
 - **SecLists** - Ultimate security wordlist collection
 - **PayloadsAllTheThings** - Useful payloads and bypasses
@@ -148,7 +146,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 - **OneListForAll** - All-in-one wordlist
 - **RAFT** - Comprehensive wordlist for fuzzing
 
-## 📁 Workspace Structure
+##  Workspace Structure
 
 ```
 ~/web_pentest_lab/
@@ -164,7 +162,7 @@ sudo python3 -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mus
 └── installation.log    # Installation log file
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Quick Subdomain Enumeration
 ```bash
@@ -189,7 +187,7 @@ cat subdomains.txt | httpx -silent -o live.txt
 cat live.txt | nuclei -t ~/web_pentest_lab/nuclei-templates/ -o vulnerabilities.txt
 ```
 
-## 🎮 Interactive Menu
+## Interactive Menu
 
 The installer provides an interactive menu with these options:
 
@@ -200,7 +198,7 @@ The installer provides an interactive menu with these options:
 5. **Update Existing Tools** - Refresh all installations
 6. **Show Installation Summary** - View installation status
 
-## 🔄 Updating Tools
+## Updating Tools
 
 To update all tools to their latest versions:
 
@@ -248,17 +246,17 @@ The installer auto-installs Homebrew. If it fails:
 **FOR EDUCATIONAL AND AUTHORIZED TESTING ONLY**
 
 This toolkit is designed for:
-- ✅ Learning cybersecurity concepts
-- ✅ Authorized penetration testing
-- ✅ Bug bounty programs with permission
-- ✅ Testing your own applications
-- ✅ Security research in controlled environments
+- Learning cybersecurity concepts
+- Authorized penetration testing
+- Bug bounty programs with permission
+- Testing your own applications
+-  Security research in controlled environments
 
 **DO NOT use these tools on systems you don't own or have explicit permission to test.**
 
 Unauthorized access to computer systems is illegal. Always obtain written permission before conducting security assessments.
 
-## 📝 Log Files
+## Log Files
 
 All installation activities are logged to:
 ```
@@ -270,7 +268,7 @@ View logs:
 tail -f ~/web_pentest_lab/installation.log
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Areas for improvement:
 - Additional security tools
@@ -288,7 +286,7 @@ Contributions welcome! Areas for improvement:
 5. **Understand the Tools** - Don't run commands blindly
 
 
-## 📊 Performance
+## Performance
 
 - **Installation Time**: 15-30 minutes (depending on internet speed)
 - **Disk Space**: ~8-12 GB after full installation
@@ -298,7 +296,7 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-**Created with 💜 by m.alfahdi**  
+**Created with  by m.alfahdi**  
 *Empowering the next generation of ethical hackers*
 
 ⭐ **If this helped you, give it a star!**
