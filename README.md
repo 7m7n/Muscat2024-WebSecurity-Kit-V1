@@ -1,7 +1,7 @@
 # Muscat2040 Web Security Kit
 
 **One-Click Web Pentest Lab Setup**  
-*Created by: m.alfahdi* 
+*Created by: m.alfahdi*  
 
 Professional automated installer for building a complete web application security testing environment on Kali Linux and macOS.
 
